@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~ - bilibili</title>
+    <link rel="stylesheet" href="../css/reset.min.css"/>
+    <link rel="stylesheet" href="../css/style1.css"/>
+</head>
+<body>
+<div class="BackgroundMap">
+    <div class="navigationColor">
+        <div class="navigationBar">
+            <ul class="navigationLeft">
+                <li class="smallLabel hover"><span class="mainStation"></span>主站</li>
+                <li class="hover">画友</li>
+                <li class="gameCenter hover">游戏中心
+                    <div class="game">
+                        <div class="gameLeft">
+                            <div class="titleImg"><img src="../img/cae2eb1e6b5fead1d56087e71e78199b853d1708.jpg"/>
+                            </div>
+
+                            <div>
+                                <ul>
+                                    <li class="headPng clear"><img
+                                            src="../img/98667a97adc53f620beb2c5826a99c0c4c9ca467.png"/>
+
+                                        <p>战舞幻想</p></li>
+                                    <li class="headPng clear"><img src="../img/b66b.png"/>
+
+                                        <p>刀剑神域</p></li>
+                                    <li class="headPng clear"><img src="../img/a8d16a.png"/>
+
+                                        <p>偶像幻想</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="gameRight">
+                            <span class="png"></span>
+                            <span class="spanTxt"><a href="javascript:void 0">游戏论坛</a></span>
+
+                            <ul class="recommend">
+                                <ul class="recommendZ">
+                                    <img src="../img/line.png" alt=""/>
+                                </ul>
+                                <li><a href="">　苍之骑士团</a>
+
+                                    <div class="recommendImg">
+                                        <img src="../img/f6.png" alt=""/>
+                                    </div>
+                                </li>
+                                <li><a href="">　幻游猎人</a>　
+                                    <div class="recommendImgB">
+                                        <img src="../img/b40.png" alt=""/>
+                                    </div>
+                                </li>
+                                <li><a href="">　命运-冠位指定(Fate/Go)</a></li>
+                                <li><a href="">　魔法少女小圆</a>
+
+                                    <div class="recommendImgD">
+                                        <img src="../img/ddd.png" alt=""/>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="direct hover">直播
+                    <div class="directSeeding">
+                        <p style="text-align: left;margin-left: 20px;float: left" class="clear">热门视频：</p>
+
+                        <p style="margin-left: 200px;float: left" class="clear">热门活动：</p>
+
+                        <div class="directSeedingLift clear">
+                            <ul class="directSeedingImg">
+                                <li><img src="../img/fad.jpg_40x40.jpg" alt=""/>
+
+                                    <p>小猫咪</p></li>
+                                <li><img src="../img/d9404.jpg_40x40.jpg" alt=""/>
+
+                                    <p>万智牌Magic</p></li>
+                            </ul>
+                            <ul class="directSeedingImg">
+                                <li><img src="../img/a4a.jpg_40x40.jpg" alt=""/>
+
+                                    <p>子弹</p></li>
+                                <li><img src="../img/c934.jpg_40x40.jpg" alt=""/>
+
+                                    <p>小魔女</p>
+                                </li>
+                            </ul>
+                            <ul class="directSeedingImg">
+                                <li><img src="../img/q147.jpg_40x40.jpg" alt=""/>
+
+                                    <p>非主流</p>
+                                </li>
+                                <li><img src="../img/b8.jpg_40x40.jpg" alt=""/>
+
+                                    <p>宫本</p></li>
+                            </ul>
+                        </div>
+                        <div class="directSeedingRight clear"></div>
+                    </div>
+                </li>
+                <li class="hover">周边</li>
+                <li class="smallLabel hover">BML<span class="new"></span></li>
+            </ul>
+            <ul class="navigationRight">
+                <li class="hover">登录</li>
+                <li class="cutOffRule hover">|</li>
+                <li class="hover">注册</li>
+                <li class="contribution hover">投稿
+                    <div class="subLevelDirectory">
+                        <span class="upload"></span>
+
+                        <p>视屏投稿</p>
+                        <span class="contributionManage"></span>
+
+                        <p class="Manage">投稿管理</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--以上都是导航条-->
+    <!--下面开始写搜索引擎-->
+    <div class="SearchEngines">
+        <div class="sisters"></div>
+        <div class="hg">
+            <span class="sistersBackground float"></span>
+
+            <p class="float">排行榜</p>
+
+            <div class="box" id="box">
+                <input type="text" id="search" class="search" placeholder="种族优势神还原Miku"/>
+                <input type="button" value="按钮" class="button" id="button"/>
+                <ul id="searchList">
+                    <li>十万个冷笑话</li>
+                    <li>青之文学</li>
+                    <li>戒魔人</li>
+                    <li>寻师伏魔录</li>
+                    <li>零之使魔</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="TwoLevelNavigation">
+    <div class="TwoLevelNavigationWidth">
+        <ul class="TwoLevelNavigationList">
+            <li>
+                <a href="javascript: void 0">
+                    <span class="i-link"></span>
+                    <em>首页</em>
+                </a>
+            </li>
+            <li class="cartoon">
+                <a href="javascript: void 0">
+                    <i>233</i>
+                    <em>动画</em>
+                </a>
+
+                <div class="hoveNavigation">
+                    <ul class="hoveNavigationList">
+                        <li><span class="arrow"></span>MAD·AMY</li>
+                        <li><span class="arrow"></span>MMD·3D</li>
+                        <li><span class="arrow"></span>短片·手书·配音</li>
+                        <li><span class="arrow"></span>综合</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="cartoon-1">
+                <a href="javascript: void 0">
+                    <i>233</i>
+                    <em>番剧</em>
+                </a>
+
+                <div class="hoveNavigation-1">
+                    <ul class="hoveNavigationList">
+                        <li><span class="arrow"></span>连载漫画</li>
+                        <li><span class="arrow"></span>完结动画</li>
+                        <li><span class="arrow"></span>资讯</li>
+                        <li><span class="arrow"></span>官方延伸</li>
+                        <li><span class="arrow"></span>国产动画</li>
+                        <li><span class="arrow"></span>新番Index</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="cartoon-2">
+                <a href="javascript: void 0">
+                    <i>233</i>
+                    <em>音乐</em>
+                </a>
+
+                <div class="hoveNavigation-2">
+                    <ul class="hoveNavigationList">
+                        <li><span class="arrow"></span>翻唱</li>
+                        <li><span class="arrow"></span>VOCALOID·UTAU</li>
+                        <li><span class="arrow"></span>演奏</li>
+                        <li><span class="arrow"></span>三次元音乐</li>
+                        <li><span class="arrow"></span>同人音乐</li>
+                        <li><span class="arrow"></span>OP/Ed/OST</li>
+                        <li><span class="arrow"></span>音乐选集</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="cartoon-3">
+                <a href="javascript: void 0">
+                    <i>233</i>
+                    <em>舞蹈</em>
+                </a>
+
+                <div class="hoveNavigation-3">
+                    <ul class="hoveNavigationList">
+                        <li><span class="arrow"></span>宅舞</li>
+                        <li><span class="arrow"></span>三次元舞蹈</li>
+                        <li><span class="arrow"></span>舞蹈教学</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="cartoon-4">
+                <a href="javascript: void 0">
+                    <i>233</i>
+                    <em>游戏</em>
+                </a>
+
+                <div class="hoveNavigation-4">
+                    <ul class="hoveNavigationList">
+                        <li><span class="arrow"></span>单机游戏</li>
+                        <li><span class="arrow"></span>网游电竞</li>
+                        <li><span class="arrow"></span>音游</li>
+                        <li><span class="arrow"></span>Mugen</li>
+                        <li><span class="arrow"></span>GMV</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="cartoon-5">
+                <a href="javascript: void 0">
+                    <i>233</i>
+                    <em>科技</em>
+                </a>
+
+                <div class="hoveNavigation-5">
+                    <ul class="hoveNavigationList">
+                        <li><span class="arrow"></span>纪录片</li>
+                        <li><span class="arrow"></span>趣味科普人文</li>
+                        <li><span class="arrow"></span>野生技术协会</li>
+                        <li><span class="arrow"></span>演讲公开课</li>
+                        <li><span class="arrow"></span>星海</li>
+                        <li><span class="arrow"></span>数码</li>
+                        <li><span class="arrow"></span>机械</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="cartoon-6">
+                <a href="javascript: void 0">
+                    <i>233</i>
+                    <em>生活</em>
+                </a>
+
+                <div class="hoveNavigation-6">
+                    <ul class="hoveNavigationList">
+                        <li><span class="arrow"></span>搞笑</li>
+                        <li><span class="arrow"></span>日常</li>
+                        <li><span class="arrow"></span>美食圈</li>
+                        <li><span class="arrow"></span>动物园</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="cartoon-7">
+                <a href="javascript: void 0">
+                    <i>233</i>
+                    <em>鬼畜</em>
+                </a>
+
+                <div class="hoveNavigation-7">
+                    <ul class="hoveNavigationList">
+                        <li><span class="arrow"></span>鬼畜调教</li>
+                        <li><span class="arrow"></span>音MAD</li>
+                        <li><span class="arrow"></span>人力VOCALOID</li>
+                        <li><span class="arrow"></span>教程演示</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="cartoon-8">
+                <a href="javascript: void 0">
+                    <i>233</i>
+                    <em>时尚</em>
+                </a>
+
+                <div class="hoveNavigation-8">
+                    <ul class="hoveNavigationList">
+                        <li><span class="arrow"></span>美妆健身</li>
+                        <li><span class="arrow"></span>服饰</li>
+                        <li><span class="arrow"></span>资讯</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="cartoon-9">
+                <a href="javascript: void 0">
+                    <i>233</i>
+                    <em>娱乐</em>
+                </a>
+
+                <div class="hoveNavigation-9">
+                    <ul class="hoveNavigationList">
+                        <li><span class="arrow"></span>综艺</li>
+                        <li><span class="arrow"></span>明星</li>
+                        <li><span class="arrow"></span>Korea相关</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="cartoon-10">
+                <a href="javascript: void 0">
+                    <i>233</i>
+                    <em>影视</em>
+                </a>
+
+                <div class="hoveNavigation-10">
+                    <ul class="hoveNavigationList">
+                        <li><span class="arrow"></span>电影</li>
+                        <li><span class="arrow"></span>电视剧</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="lis">
+                <a href="javascript: void 0">
+                    <span class="i-u-link"></span>
+                    <u>广场</u>
+                </a>
+            </li>
+            <li class="lis">
+                <a href="javascript: void 0">
+                    <span class="i-n-link"></span>
+                    <u>直播</u>
+                </a>
+            </li>
+            <li class="gif">
+                <a href="javascript: void 0">
+                    <!--<span class="gif"></span>--></a>
+            </li>
+            <li class="app-link" id="app-link-hove">
+                <a href="javascript: void 0">
+                <span class="app-box">
+                    <span class="weibo-qucode"></span>
+                </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--轮播图-->
+
+<div class="barrent" id="barrent">
+    <div class="barrentLeft" id="barrentLeft">
+        <div id="focus_box">
+            <ul id="focus_pic" style="left:0;top:0;">
+                <li><a target="_blank" href="javascript:void 0"><img src="../image/one.jpg" width="530"
+                                                                     height="180"></a></li>
+                <li><a target="_blank" href="javascript:void 0"><img src="../image/tow.jpg" width="530"
+                                                                     height="180"></a></li>
+                <li><a target="_blank" href="javascript:void 0"><img src="../image/three.jpg" width="530"
+                                                                     height="180"></a></li>
+                <li><a target="_blank" href="javascript:void 0"><img src="../image/four.jpg" width="530"
+                                                                     height="180"></a></li>
+                <li><a target="_blank" href="javascript:void 0"><img src="../image/fix.jpg" width="530"
+                                                                     height="180"></a></li>
+                <li><a target="_blank" href="javascript:void 0"><img src="../image/sex.jpg" width="530"
+                                                                     height="180"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="barrentRight" id="barrentRight">
+        <div>
+            <div class="last">
+                <div class="barrent-now">
+                    <ul>
+                        <li class="barrent-top1"><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                            <div class="barrent-top1-z"><p>【曲回针】上海话版小册老（直男误入！一定要带耳机啊哒！）</p></div>
+                        </li>
+                        <li class="barrent-top2"><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                            <div class="barrent-top1-z"><p>【曲回针】上海话版小册老（直男误入！一定要带耳机啊哒！）</p></div>
+                        </li>
+                        <li class="barrent-top3"><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                            <div class="barrent-top1-z"><p>【曲回针】上海话版小册老（直男误入！一定要带耳机啊哒！）</p></div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="barrent-bottom1"><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                            <div class="barrent-top1-z"><p>【曲回针】上海话版小册老（直男误入！一定要带耳机啊哒！）</p></div>
+                        </li>
+                        <li class="barrent-bottom2"><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                            <div class="barrent-top1-z"><p>【曲回针】上海话版小册老（直男误入！一定要带耳机啊哒！）</p></div>
+                        </li>
+                        <li class="barrent-bottom3"><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                            <div class="barrent-top1-z"><p>【曲回针】上海话版小册老（直男误入！一定要带耳机啊哒！）</p></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chent"></div>
+            <div class="next"></div>
+        </div>
+    </div>
+</div>
+
+<!--推广-->
+<div class="container">
+    <div class="container-g-1">
+        <p>
+
+        <h2 class="container-h2"><span class="container-span"></span>推广</h2>
+
+        <div class="container-a"><a href="javascript:void 0">一大波角虫接近中(๑•̀ㅂ•́)و✧</a>|<a href="javascript:void 0">我的梦想是有一个女票w</a>|<a
+                href="javascript:void 0">帅赢坂本行动企划ing(≥ω≤)</a></div>
+        </p>
+    </div>
+    <div class="container-Img">
+        <ul class="container-Img-ul">
+            <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                <div class="t">【气吞万里如虎】中华人民共和国武装力量震撼混剪</div>
+                <div class="op">
+                    <div class="fake_danmu_gen_shared fake_danmu_gen_shared0">★★★★★</div>
+                    <div class="fake_danmu_gen_shared fake_danmu_gen_shared1 ">快把老子的意大利炮拉来</div>
+                    <div class="fake_danmu_gen_shared
+                    fake_danmu_gen_shared2">快把老子的意大利炮拉来
+                    </div>
+                </div>
+            </li>
+            <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                <div class="t">【气吞万里如虎】中华人民共和国武装力量震撼混剪</div>
+                <div class="op">
+                    <div class="fake_danmu_gen_shared fake_danmu_gen_shared0">★★★★★</div>
+                    <div class="fake_danmu_gen_shared fake_danmu_gen_shared1 ">快把老子的意大利炮拉来</div>
+                    <div class="fake_danmu_gen_shared
+                    fake_danmu_gen_shared2">快把老子的意大利炮拉来
+                    </div>
+                </div>
+            </li>
+            <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                <div class="t">【气吞万里如虎】中华人民共和国武装力量震撼混剪</div>
+                <div class="op">
+                    <div class="fake_danmu_gen_shared fake_danmu_gen_shared0">★★★★★</div>
+                    <div class="fake_danmu_gen_shared fake_danmu_gen_shared1 ">快把老子的意大利炮拉来</div>
+                    <div class="fake_danmu_gen_shared
+                    fake_danmu_gen_shared2">快把老子的意大利炮拉来
+                    </div>
+                </div>
+            </li>
+            <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                <div class="t">【气吞万里如虎】中华人民共和国武装力量震撼混剪</div>
+                <div class="op">
+                    <div class="fake_danmu_gen_shared fake_danmu_gen_shared0">★★★★★</div>
+                    <div class="fake_danmu_gen_shared fake_danmu_gen_shared1 ">快把老子的意大利炮拉来</div>
+                    <div class="fake_danmu_gen_shared
+                    fake_danmu_gen_shared2">快把老子的意大利炮拉来
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="containerFont">
+        <div class="container-d">
+            <small class="container-s1"> 在线人数：676063</small>
+            <small class="container-s2">最新投稿：8238</small>
+        </div>
+        <div class="containerFont-img">
+            <img src="../image/baby.jpg" alt=""/>
+        </div>
+    </div>
+</div>
+
+
+<!--广告-->
+
+<div class="ad">
+    <img src="../image/ad.jpg" alt=""/>
+</div>
+
+<!--正在直播-->
+<div class="live-F">
+    <div class="live">
+        <h2 class="live-h2"><span class="live-s"></span>正在直播</h2>
+
+        <small class="live-sm-1">当前共有1766个在线直播</small>
+
+        <div class="live-break"><span class="live-break-s"></span>
+            <small class="live-break-sm">300多条新动态</small>
+        </div>
+        <div class="live-morve">更多</div>
+    </div>
+</div>
+
+<div class="live-container">
+    <div>
+        <ul>
+            <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                <div class="live-opacity">LOVE</div>
+                <div class="live-text">
+                    <ul>
+                        <li><img src="../image/ee.gif_40x40.gif" alt=""/>
+                            <small title="未被征服的大王">未被征服的大王</small>
+                        </li>
+                        <li class="live-text">
+                            <span class="live-text-span"></span>
+                            <small>w-春日-w</small>
+                            <span class="live-text-span"></span>
+                            <small>57</small>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                <div class="live-text">
+                    <ul>
+                        <li><img src="../image/ee.gif_40x40.gif" alt=""/>
+                            <small title="未被征服的大王">未被征服的大王</small>
+                        </li>
+                        <li class="live-text">
+                            <span class="live-text-span"></span>
+                            <small>w-春日-w</small>
+                            <span class="live-text-span"></span>
+                            <small>57</small>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                <div class="live-text">
+                    <ul>
+                        <li><img src="../image/ee.gif_40x40.gif" alt=""/>
+                            <small title="未被征服的大王">未被征服的大王</small>
+                        </li>
+                        <li class="live-text">
+                            <span class="live-text-span"></span>
+                            <small>w-春日-w</small>
+                            <span class="live-text-span"></span>
+                            <small>57</small>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                <div class="live-text">
+                    <ul>
+                        <li><img src="../image/ee.gif_40x40.gif" alt=""/>
+                            <small title="未被征服的大王">未被征服的大王</small>
+                        </li>
+                        <li class="live-text">
+                            <span class="live-text-span"></span>
+                            <small>w-春日-w</small>
+                            <span class="live-text-span"></span>
+                            <small>57</small>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</div>
+<div class="live-container-bottom">
+    <div>
+        <ul>
+            <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                <div class="live-text">
+                    <ul>
+                        <li><img src="../image/ee.gif_40x40.gif" alt=""/>
+                            <small title="未被征服的大王">未被征服的大王</small>
+                        </li>
+                        <li class="live-text">
+                            <span class="live-text-span"></span>
+                            <small>w-春日-w</small>
+                            <span class="live-text-span"></span>
+                            <small>57</small>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                <div class="live-text">
+                    <ul>
+                        <li><img src="../image/ee.gif_40x40.gif" alt=""/>
+                            <small title="未被征服的大王">未被征服的大王</small>
+                        </li>
+                        <li class="live-text">
+                            <span class="live-text-span"></span>
+                            <small>w-春日-w</small>
+                            <span class="live-text-span"></span>
+                            <small>57</small>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                <div class="live-text">
+                    <ul>
+                        <li><img src="../image/ee.gif_40x40.gif" alt=""/>
+                            <small title="未被征服的大王">未被征服的大王</small>
+                        </li>
+                        <li class="live-text">
+                            <span class="live-text-span"></span>
+                            <small>w-春日-w</small>
+                            <span class="live-text-span"></span>
+                            <small>57</small>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+
+                <div class="live-text">
+                    <ul>
+                        <li><img src="../image/ee.gif_40x40.gif" alt=""/>
+                            <small title="未被征服的大王">未被征服的大王</small>
+                        </li>
+                        <li class="live-text">
+                            <span class="live-text-span"></span>
+                            <small>w-春日-w</small>
+                            <span class="live-text-span"></span>
+                            <small>57</small>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--选项卡-->
+<div class="live-right">
+    <div class="live-tab">
+        <ul id="tab2" class="tab2">
+            <li class="li1">
+                <input type="button" value="直播排行" class="on"/>
+                <input type="button" value="关注的主播"/>
+                <input type="button" value="为你推荐"/>
+
+                <div class="show"><img src="../image/bcc.jpg" alt=""/></div>
+                <div><a href="javascript:void 0">请登录</a></div>
+                <div><img src="../image/bcc.jpg" alt=""/></div>
+            </li>
+        </ul>
+        <p><a href="javascript:void 0">BiliLive暑期歌舞夏令营（下）</a></p>
+    </div>
+</div>
+
+
+<!-- 广告-->
+<div class="ad">
+    <img src="../image/ad.jpg" alt=""/>
+</div>
+<!--动画-->
+<div class="cartoon" id="cartoon">
+    <div class="live-F">
+        <div class="live">
+            <h2 class="live-h2"><span class="cartoon-s"></span>动画</h2>
+
+            <small class="cartoon-sm">【AB向】动画监督作画实力对决</small>
+
+            <div class="live-break"><span class="live-break-s"></span>
+                <small class="live-break-sm">450多条新动态</small>
+            </div>
+            <div class="live-morve">更多</div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="cartoon-tab">
+    <ul id="tab3" class="tab3">
+        <li class="li1">
+            <input type="button" value="有新动态" class="btn"/>
+            <input type="button" value="最新投稿"/>
+
+
+            <div class="show">
+                <ul id="mouserover1">
+                    <li id="v1" class="v1"><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+
+                    <li><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                </ul>
+
+            </div>
+            <div>
+                <ul id="mouserover2">
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                </ul>
+
+
+            </div>
+
+        </li>
+    </ul>
+    <div id="v2" class="v2">
+        <img src="../image/le584.jpg_320x200.jpg" alt=""/>
+    </div>
+
+
+    <div class="cartoon-Right">
+        <h1>排行</h1>
+        <ul>
+            <li>【角雕与松鼠】160715《无限斗界》主创见面会四机位混剪字幕版</li>
+            <li>【魔王伝染】谁告诉你圆脸就不能当帅比了？日常少年妆面记录＝过程向＝</li>
+            <li>【张艺兴】 缠绵共舞不停歇 再危险的你我也要</li>
+            <li>【魔王伝染】谁告诉你圆脸就不能当帅比了？日常少年妆面记录＝过程向＝</li>
+            <li>【SNH48】鞠婧祎《醉飞霜》 （《九州天空城》插曲） 官方超清MV</li>
+            <li>【魔王伝染】谁告诉你圆脸就不能当帅比了？日常少年妆面记录＝过程向＝</li>
+            <li>【青宇】0715无限斗界之暗夜双龙主创见面会全场</li>
+            <li>【魔王伝染】谁告诉你圆脸就不能当帅比了？日常少年妆面记录＝过程向＝</li>
+        </ul>
+    </div>
+</div>
+<!-------------------------------------------------------------------------->
+<div class="week">
+    <div class="live-F">
+        <div class="live">
+            <h2 class="live-h2"><span class="cartoon-s"></span>动画</h2>
+
+            <small class="cartoon-sm">【AB向】动画监督作画实力对决</small>
+
+            <div class="live-break"><span class="live-break-s"></span>
+                <small class="live-break-sm">450多条新动态</small>
+            </div>
+            <div class="live-morve">更多</div>
+        </div>
+    </div>
+    <ul id="tab4" class="tab3">
+        <li class="li5">
+            <input type="button" value="有新动态" class="btn"/>
+            <input type="button" value="最新投稿"/>
+
+
+            <div class="show">
+                <ul id="mouserover5">
+                    <li id="v1" class="v1"><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+
+                    <li><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/le584.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                </ul>
+
+            </div>
+            <div>
+                <ul id="mouserover4">
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                    <li><img src="../image/fef.jpg_320x200.jpg" alt=""/>
+                        <small>【刀剑乱舞MMD】长谷部的 我可以叫你的名字吗</small>
+                    </li>
+                </ul>
+
+
+            </div>
+
+        </li>
+    </ul>
+    <div class="week-Right">
+
+
+        <div class="cartoon-Right">
+            <h1>排行</h1>
+            <ul>
+                <li>【角雕与松鼠】160715《无限斗界》主创见面会四机位混剪字幕版</li>
+                <li>【魔王伝染】谁告诉你圆脸就不能当帅比了？日常少年妆面记录＝过程向＝</li>
+                <li>【张艺兴】 缠绵共舞不停歇 再危险的你我也要</li>
+                <li>【魔王伝染】谁告诉你圆脸就不能当帅比了？日常少年妆面记录＝过程向＝</li>
+                <li>【SNH48】鞠婧祎《醉飞霜》 （《九州天空城》插曲） 官方超清MV</li>
+                <li>【魔王伝染】谁告诉你圆脸就不能当帅比了？日常少年妆面记录＝过程向＝</li>
+                <li>【青宇】0715无限斗界之暗夜双龙主创见面会全场</li>
+                <li>【魔王伝染】谁告诉你圆脸就不能当帅比了？日常少年妆面记录＝过程向＝</li>
+            </ul>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
+
+<script src="../js/utilsweekend.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/zhufengTween.js" type="text/javascript" charset="UTF-8"></script>
+<script src="../js/banner.js" type="text/javascript" charset="UTF-8"></script>
+<script src="../js/HomePage.js" type="text/javascript" charset="UTF-8"></script>
+
+
+
+
+
