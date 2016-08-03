@@ -876,7 +876,78 @@ html {
     font-weight: bold;
 }
 
+#page1 .details div:nth-child(1){
+    -webkit-animation: bounceInRight 3s both;
+    animation: bounceInRight 3s both;
+}
+#page1 .details div:nth-child(2){
+    -webkit-animation: bounceInLeft 3s both;
+    animation: bounceInLeft 3s both;
+}
+
+#page1 .details{
+    -webkit-animation: bounceIn 5s both;
+    animation: bounceIn 5s both;
+}
+
 /*第四屏*/
+#page1 .Proficiency div:nth-child(1){
+    -webkit-animation: bounceIn 5s both;
+    animation: bounceIn 5s both;
+}
+
+#page1 .Proficiency div:nth-child(2){
+    -webkit-animation: bounceIn 5s both;
+    animation: bounceIn 5s both;
+}
+
+#page1 .Proficiency div:nth-child(3){
+    -webkit-animation: bounceIn 5s both;
+    animation: bounceIn 5s both;
+}
+#page1 .Proficiency div:nth-child(4){
+    -webkit-animation: bounceIn 5s both;
+    animation: bounceIn 5s both;
+}
+
+#page1 .Proficiency div:nth-child(5){
+    -webkit-animation: bounceIn 5s both;
+    animation: bounceIn 5s both;
+}
+
+#page1 .Proficiency div:nth-child(6){
+    -webkit-animation: bounceIn 5s both;
+    animation: bounceIn 5s both;
+}
+#page1 .Proficiency div:nth-child(7){
+    -webkit-animation: bounceIn 5s both;
+    animation: bounceIn 5s both;
+}
+
+#page1 .Proficiency div:nth-child(8){
+    -webkit-animation: bounceIn 5s both;
+    animation: bounceIn 5s both;
+}
+
+#page1 .Proficiency div:nth-child(9){
+    -webkit-animation: bounceIn 5s both;
+    animation: bounceIn 5s both;
+}
+
+#page1 .Proficiency div:nth-child(10){
+    -webkit-animation: bounceIn 5s both;
+    animation: bounceIn 5s both;
+}
+
+#page1 .Proficiency div:nth-child(11){
+    -webkit-animation: bounceIn 5s both;
+    animation: bounceIn 5s both;
+}
+
+#page1 .Proficiency div:nth-child(12){
+    -webkit-animation: bounceIn 5s both;
+    animation: bounceIn 5s both;
+}
 .page4 {
     position: relative;
     background: url("../img/u=630861956,3963505371&fm=21&gp=0.jpg") no-repeat center;
